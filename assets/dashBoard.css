@@ -1,0 +1,7 @@
+.contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #defff2;
+    height: 100vh;
+  }

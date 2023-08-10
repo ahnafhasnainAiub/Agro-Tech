@@ -1,0 +1,32 @@
+
+<html>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel = "stylesheet" type = "text/css" href = "style.css"> 
+	<title>ORDER NOW</title>
+<body>
+    <div id = "frm"> 
+		
+		<legend><h1>Order Now</h1></legend>
+         <form method="post" action="../controller/orderproduct.php">
+        
+            <label for="type">Choose Product Name  </label><br>
+            <select name="p_name" id="type" >
+                <option value="Fruits">Fruits</option>
+                <option value="Milk">Milk</option>
+                <option value="Vegetable">Vegetable</option>
+                <option value="Meat">Meat</option>
+            </select><br>
+
+		Quantity <br><input type="number" name="p_quantity" id="p_quantity" value=""><br>
+		Price <br><input type="number" name="p_price" id="p_price" value=""><br>
+		
+        <br>
+		<input type="submit" id="btn" value="Confirm Order"/>
+	</form>
+</div>
+
+   
+
+</body>
+</html>

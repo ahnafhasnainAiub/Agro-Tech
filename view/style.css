@@ -1,0 +1,20 @@
+body{   
+   
+    background-image: url("employee.jpg");
+   }  
+   #frm{  
+       border: solid gray 1px;  
+       width:30%;  
+       border-radius: 2px;  
+       margin: 120px auto;  
+       background: rgb(213, 229, 239);  
+       padding: 20px; 
+       font-size: 30px; 
+   }  
+   #btn{  
+       color: #fff;  
+       background: #337ab7;  
+       padding: 7px;  
+       margin-left: 70%;  
+   }  
+ 
